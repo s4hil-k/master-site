@@ -1,0 +1,141 @@
+0000.006 () Opened log file at time: Tue, 18 Sep 2018 21:45:21 +0000 on https://www.nrdevsites.com/master
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.13.1 WP: 4.9.8 PHP: 7.0.30 (cgi-fcgi, Linux ds10709 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.1M | 8M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 1725179.6 MB
+0000.008 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.032 () Entity: db
+0000.032 () restore_backup(backup_file=backup_2018-09-18-1535_Master_cb25f0a761b1-db.gz, type=db, info=a:0:{}, last_one=)
+0000.032 () Unpacking backup... (backup_2018-09-18-1535_Master_cb25f0a761b1-db.gz, 0.5 Mb)
+0000.033 () Database successfully unpacked
+0000.034 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.034 () Using direct MySQL access; value of use_mysqli is: 1
+0000.046 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.047 () Max packet size: 16 MB
+0000.047 () Entering maintenance mode
+0000.047 () Enabling Maintenance mode&#8230;
+0000.048 () Backup of: https://www.nrdevsites.com/master
+0000.049 () Content URL: https://www.nrdevsites.com/master/wp-content
+0000.049 () Uploads URL: https://www.nrdevsites.com/master/wp-content/uploads
+0000.049 () Old table prefix: wp_apwqde_
+0000.049 () Site information: multisite=0
+0000.051 () New table prefix: wp_apwqde_
+0000.056 () Processing table (InnoDB): wp_apwqde_options
+0000.109 () Restoring prior UD configuration (table: wp_apwqde_options; keys: 3)
+0000.185 () Processing table (InnoDB): wp_apwqde_site
+0000.223 () Processing table (InnoDB): wp_apwqde_blogs
+0000.281 () Processing table (InnoDB): wp_apwqde_users
+0000.327 () Processing table (InnoDB): wp_apwqde_usermeta
+0000.371 () Processing table (InnoDB): wp_apwqde_blog_versions
+0000.375 () Processing table (InnoDB): wp_apwqde_commentmeta
+0000.382 () Processing table (InnoDB): wp_apwqde_comments
+0000.393 () Processing table (InnoDB): wp_apwqde_links
+0000.402 () Processing table (InnoDB): wp_apwqde_postmeta
+0000.430 () Processing table (InnoDB): wp_apwqde_posts
+0000.445 () Processing table (InnoDB): wp_apwqde_registration_log
+0000.453 () Processing table (InnoDB): wp_apwqde_signups
+0000.460 () Processing table (InnoDB): wp_apwqde_sitemeta
+0000.499 () Processing table (InnoDB): wp_apwqde_term_relationships
+0000.505 () Processing table (InnoDB): wp_apwqde_term_taxonomy
+0000.513 () Processing table (InnoDB): wp_apwqde_termmeta
+0000.524 () Database queries processed: 50 in 0.49 seconds
+0000.524 () Processing table (InnoDB): wp_apwqde_terms
+0000.532 () Processing table (InnoDB): wp_apwqde_yoast_seo_links
+0000.539 () Processing table (InnoDB): wp_apwqde_yoast_seo_meta
+0000.547 () Processing table (InnoDB): wp_apwqde_2_pmxe_exports
+0000.555 () Processing table (InnoDB): wp_apwqde_2_pmxe_google_cats
+0000.714 () Processing table (InnoDB): wp_apwqde_2_pmxe_posts
+0000.730 () Processing table (InnoDB): wp_apwqde_2_pmxe_templates
+0000.741 () Processing table (InnoDB): wp_apwqde_2_pmxi_files
+0000.747 () Processing table (InnoDB): wp_apwqde_2_pmxi_history
+0000.752 () Processing table (InnoDB): wp_apwqde_2_pmxi_imports
+0000.759 () Processing table (InnoDB): wp_apwqde_2_pmxi_posts
+0000.767 () Processing table (InnoDB): wp_apwqde_2_pmxi_templates
+0000.777 () Processing table (InnoDB): wp_apwqde_2_smush_dir_images
+0000.784 () Processing table (InnoDB): wp_apwqde_2_yoast_seo_links
+0000.793 () Processing table (InnoDB): wp_apwqde_2_yoast_seo_meta
+0000.806 () Processing table (InnoDB): wp_apwqde_3_commentmeta
+0000.828 () Processing table (InnoDB): wp_apwqde_3_comments
+0000.837 () Processing table (InnoDB): wp_apwqde_3_links
+0000.843 () Processing table (InnoDB): wp_apwqde_3_options
+0000.903 () Processing table (InnoDB): wp_apwqde_3_pmxe_exports
+0000.910 () Database queries processed: 100 in 0.87 seconds
+0000.910 () Processing table (InnoDB): wp_apwqde_3_pmxe_google_cats
+0001.060 () Processing table (InnoDB): wp_apwqde_3_pmxe_posts
+0001.067 () Processing table (InnoDB): wp_apwqde_3_pmxe_templates
+0001.072 () Processing table (InnoDB): wp_apwqde_3_pmxi_files
+0001.077 () Processing table (InnoDB): wp_apwqde_3_pmxi_history
+0001.081 () Processing table (InnoDB): wp_apwqde_3_pmxi_imports
+0001.086 () Processing table (InnoDB): wp_apwqde_3_pmxi_posts
+0001.089 () Processing table (InnoDB): wp_apwqde_3_pmxi_templates
+0001.094 () Processing table (InnoDB): wp_apwqde_3_postmeta
+0001.103 () Processing table (InnoDB): wp_apwqde_3_posts
+0001.111 () Processing table (InnoDB): wp_apwqde_3_smush_dir_images
+0001.129 () Processing table (InnoDB): wp_apwqde_3_term_relationships
+0001.139 () Processing table (InnoDB): wp_apwqde_3_term_taxonomy
+0001.150 () Processing table (InnoDB): wp_apwqde_3_termmeta
+0001.173 () Processing table (InnoDB): wp_apwqde_3_terms
+0001.183 () Processing table (InnoDB): wp_apwqde_3_yoast_seo_links
+0001.191 () Processing table (InnoDB): wp_apwqde_3_yoast_seo_meta
+0001.205 () Processing table (InnoDB): wp_apwqde_defender_lockout
+0001.214 () Processing table (InnoDB): wp_apwqde_defender_lockout_log
+0001.220 () Processing table (InnoDB): wp_apwqde_domain_mapping
+0001.223 () Database queries processed: 150 in 1.19 seconds
+0001.232 () Processing table (InnoDB): wp_apwqde_domain_mapping_reseller_log
+0001.238 () Processing table (InnoDB): wp_apwqde_eab_booking_meta
+0001.249 () Processing table (InnoDB): wp_apwqde_eab_bookings
+0001.258 () Processing table (InnoDB): wp_apwqde_mp_product_attributes
+0001.263 () Processing table (InnoDB): wp_apwqde_mp_product_attributes_terms
+0001.268 () Processing table (InnoDB): wp_apwqde_nr_404_monitor
+0001.274 () Processing table (InnoDB): wp_apwqde_nr_404_monitoring
+0001.280 () Processing table (InnoDB): wp_apwqde_pmxe_exports
+0001.287 () Processing table (InnoDB): wp_apwqde_pmxe_google_cats
+0001.392 () Processing table (InnoDB): wp_apwqde_pmxe_posts
+0001.397 () Processing table (InnoDB): wp_apwqde_pmxe_templates
+0001.402 () Processing table (InnoDB): wp_apwqde_pmxi_files
+0001.411 () Processing table (InnoDB): wp_apwqde_pmxi_history
+0001.416 () Processing table (InnoDB): wp_apwqde_pmxi_images
+0001.421 () Processing table (InnoDB): wp_apwqde_pmxi_imports
+0001.427 () Processing table (InnoDB): wp_apwqde_pmxi_posts
+0001.432 () Database queries processed: 200 in 1.39 seconds
+0001.432 () Processing table (InnoDB): wp_apwqde_pmxi_templates
+0001.436 () Processing table (InnoDB): wp_apwqde_smush_dir_images
+0001.440 () Unlocking database and leaving maintenance mode
+0001.440 () Disabling Maintenance mode&#8230;
+0001.440 () Finished: lines processed: 206 in 1.40 seconds
+0001.441 () Cleaning up rubbish...
+0001.441 () Begin search and replace (updraftplus_restored_db)
+0001.441 () [Database-replace-site-url] Database: search and replace site URL
+0001.441 () This option was not selected.
+0001.449 () Entity: plugins
+0001.449 () restore_backup(backup_file=backup_2018-09-18-1535_Master_cb25f0a761b1-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:54:"/home/nr_dev1/nrdevsites.com/master/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.449 () Unpacking backup... (backup_2018-09-18-1535_Master_cb25f0a761b1-plugins.zip, 27.6 Mb)
+0002.409 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.409 () Moving old data: can potentially use wp_filesystem method / -old
+0002.409 () Moving old data out of the way...
+0002.864 () Top-level entities being moved: check-and-enable-gzip-compression, h1-import, login-mods, simple-301-redirects, wp-help, wp-seo-html-sitemap, yoast-seo-settings-xml-csv-import, index.php, better-search-replace, wpmudev-updates, nr-tracking, wp-all-import, white-label-cms, simple-301-redirects-addon-bulk-uploader, nr-tracking.zip, flamingo, post-smtp, wp-hummingbird, updraftplus, wp-smush-pro, wp-defender, contact-form-7, wp-all-export, wordpress-seo
+0002.866 () Moving unpacked backup into place...
+0003.313 () Top-level entities being moved: better-search-replace, check-and-enable-gzip-compression, contact-form-7, flamingo, h1-import, login-mods, nr-tracking, post-smtp, simple-301-redirects, simple-301-redirects-addon-bulk-uploader, updraftplus, white-label-cms, wordpress-seo, wp-all-export, wp-all-import, wp-defender, wp-help, wp-hummingbird, wp-seo-html-sitemap, wp-smush-pro, wpmudev-updates, yoast-seo-settings-xml-csv-import, index.php, nr-tracking.zip
+0003.323 () Cleaning up rubbish...
+0003.326 () Entity: themes
+0003.326 () restore_backup(backup_file=backup_2018-09-18-1535_Master_cb25f0a761b1-themes.zip, type=themes, info=a:2:{s:4:"path";s:53:"/home/nr_dev1/nrdevsites.com/master/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0003.326 () Unpacking backup... (backup_2018-09-18-1535_Master_cb25f0a761b1-themes.zip, 6.7 Mb)
+0003.679 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.679 () Moving old data: can potentially use wp_filesystem method / -old
+0003.679 () Moving old data out of the way...
+0003.901 () Top-level entities being moved: yootheme-child, index.php, yootheme
+0003.902 () Moving unpacked backup into place...
+0004.122 () Top-level entities being moved: yootheme, yootheme-child, index.php
+0004.122 () Cleaning up rubbish...
+0004.124 () Entity: uploads
+0004.124 () restore_backup(backup_file=backup_2018-09-18-1535_Master_cb25f0a761b1-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:54:"/home/nr_dev1/nrdevsites.com/master/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0004.124 () Unpacking backup... (backup_2018-09-18-1535_Master_cb25f0a761b1-uploads.zip, 0 Mb)
+0004.131 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.131 () Moving old data: can potentially use wp_filesystem method / -old
+0004.131 () Moving old data out of the way...
+0004.139 () Moving unpacked backup into place...
+0004.146 () Cleaning up rubbish...
+0004.148 () Entity: others
+0004.148 () restore_backup(backup_file=backup_2018-09-18-1535_Master_cb25f0a761b1-others.zip, type=others, info=a:2:{s:4:"path";s:46:"/home/nr_dev1/nrdevsites.com/master/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0004.148 () Unpacking backup... (backup_2018-09-18-1535_Master_cb25f0a761b1-others.zip, 0 Mb)
+0004.150 () Cleaning up rubbish...
+0004.211 () Restore successful!
+0004.211 () Restore successful

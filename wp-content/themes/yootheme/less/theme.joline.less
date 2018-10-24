@@ -1,0 +1,65 @@
+/*
+
+Name: Joline
+Background: White
+Color: Beige
+Type: Flat
+
+Style: white-salmon
+Name: White Salmon
+Background: White
+Color: Red
+Type: Flat
+
+Style: white-green
+Name: White Green
+Background: White
+Color: Green
+Type: Flat
+
+Style: light-green
+Name: Light Green
+Background: Light
+Color: Green
+Type: Flat
+
+Style: light-pink
+Name: Light Pink
+Background: Light
+Color: Pink
+Type: Flat
+
+Style: black-pink
+Name: Black Pink
+Background: Black
+Color: Pink
+Type: Flat
+
+*/
+
+// Platform
+@import "platform.less";
+
+// UIkit Core
+@import "../vendor/assets/uikit/src/less/uikit.less";
+
+// UIkit Theme
+@import "../vendor/assets/uikit-themes/master/_import.less";
+@import "../vendor/assets/uikit-themes/master-joline/_import.less";
+
+// Theme
+@import "theme.less";
+
+//
+// Variables
+//
+
+@theme-headerbar-top-border-width:              @global-border-width;
+@theme-headerbar-top-border:                    @global-border;
+
+.tm-headerbar-top + .uk-navbar-container:not(.uk-navbar-sticky) .uk-navbar-nav > li > a::before when (@navbar-nav-item-line-mode) and (@navbar-nav-item-line-position-mode = top) { top: -@theme-headerbar-top-border-width; }
+
+// Style
+@import (optional) "../vendor/assets/uikit-themes/master-joline/styles/@{internal-style}.less";
+
+@internal-style: ;

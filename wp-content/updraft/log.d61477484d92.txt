@@ -1,0 +1,82 @@
+0000.007 () Opened log file at time: Wed, 15 Nov 2017 18:44:45 +0000 on https://www.nrdevsites.com/master
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.12 WP: 4.8.3 PHP: 5.6.29 (cgi-fcgi, Linux ds8210 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 30.8M | 31.3M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 1554915.6 MB
+0000.009 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.073 () Entity: db
+0000.073 () restore_backup(backup_file=backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-db.gz, type=db, info=a:0:{}, last_one=)
+0000.073 () Unpacking backup... (backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-db.gz, 0.3 Mb)
+0000.073 () Database successfully unpacked
+0000.073 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.073 () Using direct MySQL access; value of use_mysqli is: 1
+0000.081 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.082 () Max packet size: 16 MB
+0000.082 () Entering maintenance mode
+0000.082 () Enabling Maintenance mode&#8230;
+0000.083 () Backup of: https://www.nrdevsites.com/master
+0000.083 () Content URL: https://www.nrdevsites.com/master/wp-content
+0000.083 () Uploads URL: https://www.nrdevsites.com/master/wp-content/uploads
+0000.083 () Old table prefix: wp_apwqde_
+0000.084 () Site information: multisite=0
+0000.086 () New table prefix: wp_apwqde_
+0000.091 () Processing table (InnoDB): wp_apwqde_options
+0000.230 () Restoring prior UD configuration (table: wp_apwqde_options; keys: 3)
+0000.276 () Processing table (InnoDB): wp_apwqde_users
+0000.289 () Processing table (InnoDB): wp_apwqde_usermeta
+0000.316 () Processing table (InnoDB): wp_apwqde_commentmeta
+0000.325 () Processing table (InnoDB): wp_apwqde_comments
+0000.344 () Processing table (InnoDB): wp_apwqde_links
+0000.359 () Processing table (InnoDB): wp_apwqde_postmeta
+0000.376 () Processing table (InnoDB): wp_apwqde_posts
+0000.391 () Processing table (InnoDB): wp_apwqde_term_relationships
+0000.404 () Processing table (InnoDB): wp_apwqde_term_taxonomy
+0000.428 () Processing table (InnoDB): wp_apwqde_termmeta
+0000.446 () Processing table (InnoDB): wp_apwqde_terms
+0000.458 () Processing table (InnoDB): wp_apwqde_defender_lockout
+0000.470 () Processing table (InnoDB): wp_apwqde_defender_lockout_log
+0000.481 () Processing table (InnoDB): wp_apwqde_pmxe_exports
+0000.492 () Processing table (InnoDB): wp_apwqde_pmxe_google_cats
+0000.898 () Database queries processed: 50 in 0.82 seconds
+0001.040 () Processing table (InnoDB): wp_apwqde_pmxe_posts
+0001.047 () Processing table (InnoDB): wp_apwqde_pmxe_templates
+0001.055 () Processing table (InnoDB): wp_apwqde_pmxi_files
+0001.063 () Processing table (InnoDB): wp_apwqde_pmxi_history
+0001.073 () Processing table (InnoDB): wp_apwqde_pmxi_imports
+0001.083 () Processing table (InnoDB): wp_apwqde_pmxi_posts
+0001.091 () Processing table (InnoDB): wp_apwqde_pmxi_templates
+0001.099 () Processing table (InnoDB): wp_apwqde_smush_dir_images
+0001.109 () Processing table (InnoDB): wp_apwqde_yoast_seo_links
+0001.118 () Processing table (InnoDB): wp_apwqde_yoast_seo_meta
+0001.125 () Unlocking database and leaving maintenance mode
+0001.125 () Disabling Maintenance mode&#8230;
+0001.125 () Finished: lines processed: 82 in 1.05 seconds
+0001.125 () Cleaning up rubbish...
+0001.137 () Entity: plugins
+0001.137 () restore_backup(backup_file=backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/home/nr_dev/nrdevsites.com/master/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0001.137 () Unpacking backup... (backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-plugins.zip, 19.5 Mb)
+0003.613 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.613 () Moving old data: can potentially use wp_filesystem method / -old
+0003.613 () Moving old data out of the way...
+0003.772 () Top-level entities being moved: h1-import, check-and-enable-gzip-compression, contact-form-7, updraftplus
+0003.775 () Moving unpacked backup into place...
+0004.329 () Top-level entities being moved: check-and-enable-gzip-compression, contact-form-7, h1-import, login-mods, postman-smtp-copy, simple-301-redirects, simple-301-redirects-addon-bulk-uploader, updraftplus, wordpress-seo, wp-all-export, wp-all-import, wp-defender, wp-hummingbird, wp-smush-pro, wpmudev-updates, yoast-seo-settings-xml-csv-import, index.php
+0004.337 () Cleaning up rubbish...
+0004.339 () Entity: themes
+0004.339 () restore_backup(backup_file=backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/home/nr_dev/nrdevsites.com/master/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0004.340 () Unpacking backup... (backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-themes.zip, 6.5 Mb)
+0004.605 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.606 () Moving old data: can potentially use wp_filesystem method / -old
+0004.606 () Moving old data out of the way...
+0004.874 () Top-level entities being moved: twentyfifteen, twentysixteen, index.php, twentyseventeen, yootheme, yootheme-child
+0004.878 () Error message: Could not move the files into place. Check your file permissions.
+0004.878 () Error data (move_failed): /home/nr_dev/nrdevsites.com/master/wp-content/themes/yootheme-child -> /home/nr_dev/nrdevsites.com/master/wp-content/updraft/themes-old/yootheme-child
+0004.878 () themes: /home/nr_dev/nrdevsites.com/master/wp-content/themes: deleting contents (as attempts to copy failed)
+0004.879 () Moving unpacked backup into place...
+0005.154 () Top-level entities being moved: twentyfifteen, twentyseventeen, twentysixteen, yootheme, yootheme-child, index.php
+0005.155 () PHP event: code E_WARNING: copy(/home/nr_dev/nrdevsites.com/master/wp-content/themes/yootheme-child/builder/pro-element-master/.svg): failed to open stream: Permission denied (line 257, wp-admin/includes/class-wp-filesystem-direct.php)
+0005.155 () Failed to move file (check your file permissions and disk quota): /home/nr_dev/nrdevsites.com/master/wp-content/upgrade/86b6b1e1/themes/yootheme-child/builder/pro-element-master/.svg -&gt; /home/nr_dev/nrdevsites.com/master/wp-content/themes/yootheme-child/builder/pro-element-master/.svg
+0005.159 () Error message: Could not move the files into place. Check your file permissions.
+0005.159 () Error data (move_failed): (2) /home/nr_dev/nrdevsites.com/master/wp-content/upgrade/86b6b1e1/themes/yootheme-child -> /home/nr_dev/nrdevsites.com/master/wp-content/themes/yootheme-child
+0005.161 () Restore failed...
+0005.161 () Error message: Could not move the files into place. Check your file permissions.
+0005.161 () Error data (move_failed): (2) /home/nr_dev/nrdevsites.com/master/wp-content/upgrade/86b6b1e1/themes/yootheme-child -> /home/nr_dev/nrdevsites.com/master/wp-content/themes/yootheme-child
+0005.161 () Restore failed

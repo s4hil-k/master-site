@@ -1,0 +1,67 @@
+/*
+
+Name: Vibe
+Background: Colored
+Color: Pink
+Type: Skeuomorph
+
+Style: blue-blue
+Name: Blue Blue
+Background: Colored
+Color: Blue
+Type: Skeuomorph
+
+Style: dark-turquoise
+Name: Dark Turquoise
+Background: Dark
+Color: Turquoise
+Type: Skeuomorph
+
+Style: dark-yellow
+Name: Dark Yellow
+Background: Dark
+Color: Yellow
+Type: Skeuomorph
+
+Style: dark-red
+Name: Dark Red
+Background: Dark
+Color: Red
+Type: Skeuomorph
+
+Style: dark-green
+Name: Dark Green
+Background: Dark
+Color: Green
+Type: Skeuomorph
+
+*/
+
+// Platform
+@import "platform.less";
+
+// UIkit Core
+@import "../vendor/assets/uikit/src/less/uikit.less";
+
+// UIkit Theme
+@import "../vendor/assets/uikit-themes/master/_import.less";
+@import "../vendor/assets/uikit-themes/master-vibe/_import.less";
+
+// Theme
+@import "theme.less";
+
+//
+// Variables
+//
+
+@theme-page-border-mode:                        -top;
+@theme-page-border-width:                       6px;
+@theme-page-body-border:                        mix(@global-secondary-background, @global-primary-background, 50%);
+@internal-theme-page-border-gradient:           linear-gradient(90deg, @global-secondary-background, @global-primary-background);
+
+@theme-toolbar-background:                      darken(@global-background, 1%);
+
+// Style
+@import (optional) "../vendor/assets/uikit-themes/master-vibe/styles/@{internal-style}.less";
+
+@internal-style: ;

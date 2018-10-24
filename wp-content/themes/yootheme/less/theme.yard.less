@@ -1,0 +1,70 @@
+/*
+
+Name: Yard
+Background: White
+Color: Yellow
+Type: Flat
+
+Style: white-orange
+Name: White Orange
+Background: White
+Color: Orange
+Type: Material
+
+Style: white-red
+Name: White Red
+Background: White
+Color: Red
+Type: Material
+
+Style: white-blue
+Name: White Blue
+Background: White
+Color: Blue
+Type: Material
+
+Style: white-darkblue
+Name: White Darkblue
+Background: White
+Color: blue
+Type: Material
+
+Style: dark-orange
+Name: Dark Orange
+Background: Dark
+Color: Orange
+Type: Material
+
+*/
+
+// Platform
+@import "platform.less";
+
+// UIkit Core
+@import "../vendor/assets/uikit/src/less/uikit.less";
+
+// UIkit Theme
+@import "../vendor/assets/uikit-themes/master/_import.less";
+@import "../vendor/assets/uikit-themes/master-yard/_import.less";
+
+// Theme
+@import "theme.less";
+
+//
+// Variables
+//
+
+@theme-page-border-width:                       30px;
+@theme-page-border-width-l:                     50px;
+
+.tm-page when not (@theme-page-border-width = 0) {
+    border-top-width: 0;
+}
+
+@internal-section-title-mode:                   ;
+@section-title-letter-spacing:                  none;
+
+// Style
+@import (optional) "../vendor/assets/uikit-themes/master-yard/styles/@{internal-style}.less";
+
+@internal-style: ;

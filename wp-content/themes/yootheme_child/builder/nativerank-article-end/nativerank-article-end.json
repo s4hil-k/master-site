@@ -1,0 +1,7 @@
+{
+  "name": "nativerank_article_end",
+  "title": "</article>",
+  "icon": "${THEME}_child/builder/nativerank-article-end/icon.svg",
+  "iconSmall": "${THEME}_child/builder/nativerank-article-end/icon-small.svg",
+  "element": true
+}

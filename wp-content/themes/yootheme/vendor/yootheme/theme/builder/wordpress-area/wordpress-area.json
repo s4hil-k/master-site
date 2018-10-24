@@ -1,0 +1,127 @@
+{
+    "name": "wordpress_area",
+    "title": "WP Area",
+    "icon": "$ASSETS/images/elements-large/wordpress_area.svg",
+    "iconSmall": "$ASSETS/images/elements-small/wordpress_area.svg",
+    "element": true,
+    "width": 500,
+    "defaults": {
+        "layout": "stack",
+        "breakpoint": "m"
+    },
+    "fields": {
+        "content": {
+            "type": "select-position",
+            "label": "Widget Area",
+            "description": "Select a WordPress widget area that will render all published widgets. It's recommended to use the builder-1 to -6 widget areas, which are not rendered elsewhere by the theme.",
+            "default": ""
+        },
+        "layout": {
+            "type": "select",
+            "label": "Layout",
+            "description": "Select whether the widgets should be aligned side by side or stacked above each other.",
+            "default": "sidebar",
+            "options": {
+                "Stacked": "stack",
+                "Grid": "grid"
+            }
+        },
+        "grid_gutter": {
+            "type": "select",
+            "label": "Gutter",
+            "description": "Set the grid gutter width and display dividers between grid cells.",
+            "default": "",
+            "options": {
+                "Small": "small",
+                "Medium": "medium",
+                "Default": "",
+                "Large": "large",
+                "Collapse": "collapse"
+            }
+        },
+        "grid_divider": {
+            "type": "checkbox",
+            "text": "Show dividers"
+        },
+        "breakpoint": {
+            "type": "select",
+            "label": "Breakpoint",
+            "description": "Set the breakpoint from which grid cells will stack.",
+            "options": {
+                "Small (Phone Landscape)": "s",
+                "Medium (Tablet Landscape)": "m",
+                "Large (Desktop)": "l",
+                "X-Large (Large Screens)": "xl"
+            }
+        },
+        "vertical_align": {
+            "type": "checkbox",
+            "label": "Vertical Alignment",
+            "description": "Vertically center grid cells.",
+            "text": "Center"
+        },
+        "match": {
+            "type": "checkbox",
+            "label": "Panels",
+            "description": "Stretch the panel to match the height of the grid cell.",
+            "text": "Match height",
+            "show": "!vertical_align"
+        },
+        "text_align": "${TEXT_ALIGN_JUSTIFY}",
+        "text_align_breakpoint": "${TEXT_ALIGN_BREAKPOINT}",
+        "text_align_fallback": "${TEXT_ALIGN_JUSTIFY_FALLBACK}",
+        "maxwidth": "${MAXWIDTH}",
+        "maxwidth_align": "${MAXWIDTH_ALIGN}",
+        "maxwidth_breakpoint": "${MAXWIDTH_BREAKPOINT}",
+        "margin": "${MARGIN}",
+        "margin_remove_top": "${MARGIN_REMOVE_TOP}",
+        "margin_remove_bottom": "${MARGIN_REMOVE_BOTTOM}",
+        "animation": "${ANIMATION}",
+        "_parallax_button": "${_PARALLAX_BUTTON}",
+        "visibility": "${VISIBILITY}",
+        "name": "${NAME}",
+        "id": "${ID}",
+        "class": "${CLS}",
+        "css": {
+            "label": "CSS",
+            "description": "Enter your own custom CSS. The following selectors will be prefixed automatically for this element: <code>.el-element</code>",
+            "type": "editor",
+            "editor": "code",
+            "mode": "css",
+            "attrs": {
+                "debounce": 500
+            }
+        }
+    },
+    "fieldset": {
+        "default": {
+            "type": "tabs",
+            "fields": [
+                {
+                    "title": "Content",
+                    "fields": ["content"]
+                },
+                {
+                    "title": "Settings",
+                    "fields": [
+                        {
+                            "type": "group",
+                            "label": "Grid",
+                            "divider": true,
+                            "fields": ["layout", "grid_gutter", "grid_divider", "breakpoint", "vertical_align", "match"]
+                        },
+                        {
+                            "type": "group",
+                            "label": "General",
+                            "fields": ["text_align", "text_align_breakpoint", "text_align_fallback", "maxwidth", "maxwidth_align", "maxwidth_breakpoint", "margin", "margin_remove_top", "margin_remove_bottom", "animation", "_parallax_button", "visibility"]
+                        }
+                    ]
+                },
+                {
+                    "title": "Advanced",
+                    "fields": ["name", "id", "class", "css"]
+                }
+            ]
+        }
+    }
+}

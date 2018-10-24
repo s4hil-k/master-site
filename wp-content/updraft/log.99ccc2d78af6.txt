@@ -1,0 +1,354 @@
+0000.000 (0) Opened log file at time: Tue, 16 Oct 2018 19:17:18 +0000 on https://www.nrdevsites.com/master
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.1 WP: 4.9.8 PHP: 7.0.32 (cgi-fcgi, Linux ds10709 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.4M | 14M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 1719792.4 MB
+0000.005 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.009 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.011 (0) Set semaphore last lock (fd) time to 2018-10-16 19:17:18
+0000.013 (0) Semaphore lock (fd) complete
+0000.018 (0) Backup run: resumption=0, nonce=99ccc2d78af6, begun at=1539717438 (0s ago), job type=backup
+0000.020 (0) Scheduling a resumption (1) after 300 seconds (1539717738) in case this run gets aborted
+0000.028 (0) Checking if we have a zip executable available
+0000.029 (0) Testing: /usr/bin/zip
+0000.034 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.035 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.036 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.037 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.037 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.041 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.042 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.049 (0) Working binary zip found: /usr/bin/zip
+0000.052 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.054 (0) Creation of backups of directories: beginning
+0000.060 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.166 (0) Total entities for the zip file: 1018 directories, 5734 files (0 skipped as non-modified), 84.6 MB
+0000.169 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.172 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.175 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.178 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.181 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.183 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 5734 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0000.521 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: size is now: 3.00 MB
+0000.525 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 600 files added (on-disk size: 3088.2 KB)
+0000.527 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 700 files added (on-disk size: 3088.2 KB)
+0000.530 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 800 files added (on-disk size: 3088.2 KB)
+0000.533 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 900 files added (on-disk size: 3088.2 KB)
+0000.537 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1000 files added (on-disk size: 3088.2 KB)
+0000.538 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.2 MB, 5734 files batched, 501 (1002) added so far); re-opening (prior size: 3088.2 KB)
+0000.880 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: size is now: 5.50 MB
+0000.884 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1100 files added (on-disk size: 5581.8 KB)
+0000.887 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1200 files added (on-disk size: 5581.8 KB)
+0000.891 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1300 files added (on-disk size: 5581.8 KB)
+0000.895 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1400 files added (on-disk size: 5581.8 KB)
+0000.900 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1500 files added (on-disk size: 5581.8 KB)
+0000.902 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.8 MB, 5734 files batched, 501 (1503) added so far); re-opening (prior size: 5581.8 KB)
+0001.225 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: size is now: 9.80 MB
+0001.229 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1600 files added (on-disk size: 10006.4 KB)
+0001.232 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1700 files added (on-disk size: 10006.4 KB)
+0001.235 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1800 files added (on-disk size: 10006.4 KB)
+0001.239 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 1900 files added (on-disk size: 10006.4 KB)
+0001.241 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2000 files added (on-disk size: 10006.4 KB)
+0001.243 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 5734 files batched, 501 (2004) added so far); re-opening (prior size: 10006.4 KB)
+0001.613 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: size is now: 13.60 MB
+0001.621 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2100 files added (on-disk size: 13969.6 KB)
+0001.624 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2200 files added (on-disk size: 13969.6 KB)
+0001.627 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2300 files added (on-disk size: 13969.6 KB)
+0001.629 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2400 files added (on-disk size: 13969.6 KB)
+0001.632 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2500 files added (on-disk size: 13969.6 KB)
+0001.633 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 5734 files batched, 501 (2505) added so far); re-opening (prior size: 13969.6 KB)
+0002.007 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2600 files added (on-disk size: 16062.9 KB)
+0002.009 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2700 files added (on-disk size: 16062.9 KB)
+0002.012 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2800 files added (on-disk size: 16062.9 KB)
+0002.015 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 2900 files added (on-disk size: 16062.9 KB)
+0002.018 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3000 files added (on-disk size: 16062.9 KB)
+0002.019 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 5734 files batched, 501 (3006) added so far); re-opening (prior size: 16062.9 KB)
+0002.160 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3100 files added (on-disk size: 16796.7 KB)
+0002.163 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3200 files added (on-disk size: 16796.7 KB)
+0002.166 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3300 files added (on-disk size: 16796.7 KB)
+0002.169 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3400 files added (on-disk size: 16796.7 KB)
+0002.171 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3500 files added (on-disk size: 16796.7 KB)
+0002.173 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.9 MB, 5734 files batched, 501 (3507) added so far); re-opening (prior size: 16796.7 KB)
+0002.405 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3600 files added (on-disk size: 17998.9 KB)
+0002.408 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3700 files added (on-disk size: 17998.9 KB)
+0002.411 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3800 files added (on-disk size: 17998.9 KB)
+0002.414 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 3900 files added (on-disk size: 17998.9 KB)
+0002.417 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4000 files added (on-disk size: 17998.9 KB)
+0002.418 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 5734 files batched, 501 (4008) added so far); re-opening (prior size: 17998.9 KB)
+0002.640 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4100 files added (on-disk size: 19062.7 KB)
+0002.643 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4200 files added (on-disk size: 19062.7 KB)
+0002.646 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4300 files added (on-disk size: 19062.7 KB)
+0002.649 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4400 files added (on-disk size: 19062.7 KB)
+0002.652 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4500 files added (on-disk size: 19062.7 KB)
+0002.653 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.1 MB, 5734 files batched, 501 (4509) added so far); re-opening (prior size: 19062.7 KB)
+0002.862 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4600 files added (on-disk size: 22242.5 KB)
+0002.866 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4700 files added (on-disk size: 22242.5 KB)
+0002.868 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4800 files added (on-disk size: 22242.5 KB)
+0002.871 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 4900 files added (on-disk size: 22242.5 KB)
+0002.874 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5000 files added (on-disk size: 22242.5 KB)
+0002.875 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.4 MB, 5734 files batched, 501 (5010) added so far); re-opening (prior size: 22242.5 KB)
+0003.693 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: size is now: 26.20 MB
+0003.697 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5100 files added (on-disk size: 26854 KB)
+0003.700 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5200 files added (on-disk size: 26854 KB)
+0003.702 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5300 files added (on-disk size: 26854 KB)
+0003.705 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5400 files added (on-disk size: 26854 KB)
+0003.708 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5500 files added (on-disk size: 26854 KB)
+0003.709 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.9 MB, 5734 files batched, 501 (5511) added so far); re-opening (prior size: 26854 KB)
+0004.300 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5600 files added (on-disk size: 29821.4 KB)
+0004.303 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip.tmp: 5700 files added (on-disk size: 29821.4 KB)
+0005.037 (0) Created plugins zip (0) - 32670.4 KB in 5 s (6566.2 KB/s) (sha1: 970e38bc40974081a871623986ffdf85b7215666, sha256: 7341f0246f4c533023e0b762204606a65913c35fd03df82934d7009536a857aa)
+0005.039 (0) Beginning creation of dump of themes (split every: 400 MB)
+0005.086 (0) Total entities for the zip file: 250 directories, 3095 files (0 skipped as non-modified), 17.4 MB
+0005.090 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.093 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.096 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.099 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.102 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0005.103 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.4 MB, 3095 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0005.431 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: size is now: 1.90 MB
+0005.435 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 600 files added (on-disk size: 1937.6 KB)
+0005.438 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 700 files added (on-disk size: 1937.6 KB)
+0005.440 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 800 files added (on-disk size: 1937.6 KB)
+0005.443 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 900 files added (on-disk size: 1937.6 KB)
+0005.445 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1000 files added (on-disk size: 1937.6 KB)
+0005.446 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 3095 files batched, 501 (1002) added so far); re-opening (prior size: 1937.6 KB)
+0005.518 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: size is now: 2.40 MB
+0005.522 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1100 files added (on-disk size: 2503.7 KB)
+0005.525 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1200 files added (on-disk size: 2503.7 KB)
+0005.527 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1300 files added (on-disk size: 2503.7 KB)
+0005.530 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1400 files added (on-disk size: 2503.7 KB)
+0005.532 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1500 files added (on-disk size: 2503.7 KB)
+0005.533 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 3095 files batched, 501 (1503) added so far); re-opening (prior size: 2503.7 KB)
+0005.612 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: size is now: 3.00 MB
+0005.615 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1600 files added (on-disk size: 3069.1 KB)
+0005.618 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1700 files added (on-disk size: 3069.1 KB)
+0005.621 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1800 files added (on-disk size: 3069.1 KB)
+0005.623 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 1900 files added (on-disk size: 3069.1 KB)
+0005.626 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2000 files added (on-disk size: 3069.1 KB)
+0005.627 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.9 MB, 3095 files batched, 501 (2004) added so far); re-opening (prior size: 3069.1 KB)
+0005.687 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: size is now: 3.60 MB
+0005.691 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2100 files added (on-disk size: 3718 KB)
+0005.693 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2200 files added (on-disk size: 3718 KB)
+0005.696 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2300 files added (on-disk size: 3718 KB)
+0005.699 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2400 files added (on-disk size: 3718 KB)
+0005.701 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2500 files added (on-disk size: 3718 KB)
+0005.702 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 3095 files batched, 501 (2505) added so far); re-opening (prior size: 3718 KB)
+0005.772 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: size is now: 5.40 MB
+0005.776 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2600 files added (on-disk size: 5502.7 KB)
+0005.779 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2700 files added (on-disk size: 5502.7 KB)
+0005.782 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2800 files added (on-disk size: 5502.7 KB)
+0005.784 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 2900 files added (on-disk size: 5502.7 KB)
+0005.787 (0) Zip: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: 3000 files added (on-disk size: 5502.7 KB)
+0005.788 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 3095 files batched, 501 (3006) added so far); re-opening (prior size: 5502.7 KB)
+0006.005 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip.tmp: size is now: 6.50 MB
+0006.153 (0) Created themes zip (0) - 6963.9 KB in 1.1 s (6265.2 KB/s) (sha1: e565b9dd386fb57273c144d4fb9fc906184b0161, sha256: f42fc507c9314344909618df2b9d024ff6302ba6159be2899d462015651466b4)
+0006.155 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.156 (0) Looking for candidates to backup in: /home/nr_dev1/nrdevsites.com/master/wp-content/uploads
+0006.157 (0) finding files: 2017: adding to list (1)
+0006.157 (0) finding files: 2018: adding to list (2)
+0006.158 (0) finding files: sites: adding to list (3)
+0006.159 (0) finding files: wp-defender: adding to list (4)
+0006.160 (0) finding files: wpallexport: adding to list (5)
+0006.160 (0) finding files: wpallimport: adding to list (6)
+0006.161 (0) finding files: appointments-log.txt: adding to list (7)
+0006.162 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.166 (0) Total entities for the zip file: 53 directories, 65 files (0 skipped as non-modified), 0.7 MB
+0006.186 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-uploads.zip.tmp: size is now: 0.10 MB
+0006.191 (0) Created uploads zip (0) - 70.8 KB in 0 s (2534.1 KB/s) (sha1: ff37b76abf4e91f8c8a41e028543e757d6a67dde, sha256: 026e3b8b522d7098af6fb85a4b3a335ddf06bbb7ff26ad1a2c853a097392fc13)
+0006.193 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.194 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.195 (0) Looking for candidates to backup in: /home/nr_dev1/nrdevsites.com/master/wp-content
+0006.195 (0) finding files: plugins: skipping: this is the plugins directory
+0006.196 (0) finding files: uploads: skipping: this is the uploads directory
+0006.196 (0) finding files: upgrade: skipping: excluded by options
+0006.197 (0) finding files: updraft: skipping: this is the updraft directory
+0006.198 (0) finding files: themes: skipping: this is the themes directory
+0006.198 (0) finding files: wphb-cache: adding to list (1)
+0006.199 (0) finding files: wphb-logs: adding to list (2)
+0006.200 (0) finding files: sunrise.php: adding to list (3)
+0006.200 (0) finding files: index.php: adding to list (4)
+0006.203 (0) Total entities for the zip file: 4 directories, 3 files (0 skipped as non-modified), 0 MB
+0006.207 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-others.zip.tmp: size is now: 0.00 MB
+0006.211 (0) Created others zip (0) - 1.4 KB in 0 s (138.8 KB/s) (sha1: 5212458a706eae9dc6110d93bd09661dd3275c81, sha256: 06ea42fa657f6ea5a876865f355836435868e81b89dbc5161551d69ce96d33f0)
+0006.215 (0) Saving backup status to database (elements: 8)
+0006.218 (0) Beginning creation of database dump (WordPress DB)
+0006.220 (0) Testing: /usr/bin/mysqldump
+0006.234 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_apwqde_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1252 bytes total)
+0006.236 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0006.241 (0) Table wp_apwqde_options: Total expected rows (approximate): 306
+0006.288 (0) Table wp_apwqde_options: Total rows added: 326 in 0.05 seconds
+0006.289 (0) Table wp_apwqde_options: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_options.table.gz - 172.4 KB)
+0006.293 (0) Table wp_apwqde_users: Total expected rows (approximate): 0
+0006.296 (0) Table wp_apwqde_users: Total rows added: 1 in 0.00 seconds
+0006.297 (0) Table wp_apwqde_users: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_users.table.gz - 0.6 KB)
+0006.300 (0) Table wp_apwqde_usermeta: Total expected rows (approximate): 20
+0006.303 (0) Table wp_apwqde_usermeta: Total rows added: 24 in 0.00 seconds
+0006.304 (0) Table wp_apwqde_usermeta: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_usermeta.table.gz - 1.8 KB)
+0006.307 (0) Table wp_apwqde_commentmeta: Total expected rows (approximate): 0
+0006.309 (0) Table wp_apwqde_commentmeta: Total rows added: 0 in 0.00 seconds
+0006.310 (0) Table wp_apwqde_commentmeta: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_commentmeta.table.gz - 0.4 KB)
+0006.314 (0) Table wp_apwqde_comments: Total expected rows (approximate): 0
+0006.317 (0) Table wp_apwqde_comments: Total rows added: 0 in 0.00 seconds
+0006.317 (0) Table wp_apwqde_comments: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_comments.table.gz - 0.5 KB)
+0006.321 (0) Table wp_apwqde_links: Total expected rows (approximate): 0
+0006.323 (0) Table wp_apwqde_links: Total rows added: 0 in 0.00 seconds
+0006.324 (0) Table wp_apwqde_links: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_links.table.gz - 0.5 KB)
+0006.328 (0) Table wp_apwqde_postmeta: Total expected rows (approximate): 13
+0006.330 (0) Table wp_apwqde_postmeta: Total rows added: 11 in 0.00 seconds
+0006.331 (0) Table wp_apwqde_postmeta: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_postmeta.table.gz - 0.6 KB)
+0006.335 (0) Table wp_apwqde_posts: Total expected rows (approximate): 7
+0006.339 (0) Table wp_apwqde_posts: Total rows added: 6 in 0.00 seconds
+0006.340 (0) Table wp_apwqde_posts: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_posts.table.gz - 3.1 KB)
+0006.344 (0) Table wp_apwqde_term_relationships: Total expected rows (approximate): 0
+0006.346 (0) Table wp_apwqde_term_relationships: Total rows added: 0 in 0.00 seconds
+0006.347 (0) Table wp_apwqde_term_relationships: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_term_relationships.table.gz - 0.3 KB)
+0006.351 (0) Table wp_apwqde_term_taxonomy: Total expected rows (approximate): 0
+0006.354 (0) Table wp_apwqde_term_taxonomy: Total rows added: 1 in 0.00 seconds
+0006.355 (0) Table wp_apwqde_term_taxonomy: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_term_taxonomy.table.gz - 0.4 KB)
+0006.359 (0) Table wp_apwqde_termmeta: Total expected rows (approximate): 0
+0006.361 (0) Table wp_apwqde_termmeta: Total rows added: 0 in 0.00 seconds
+0006.362 (0) Table wp_apwqde_termmeta: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_termmeta.table.gz - 0.4 KB)
+0006.366 (0) Table wp_apwqde_terms: Total expected rows (approximate): 0
+0006.370 (0) Table wp_apwqde_terms: Total rows added: 1 in 0.00 seconds
+0006.371 (0) Table wp_apwqde_terms: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_terms.table.gz - 0.4 KB)
+0006.377 (0) Table wp_apwqde_yoast_seo_links: Total expected rows (approximate): 0
+0006.379 (0) Table wp_apwqde_yoast_seo_links: Total rows added: 0 in 0.00 seconds
+0006.380 (0) Table wp_apwqde_yoast_seo_links: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_yoast_seo_links.table.gz - 0.4 KB)
+0006.385 (0) Table wp_apwqde_yoast_seo_meta: Total expected rows (approximate): 3
+0006.388 (0) Table wp_apwqde_yoast_seo_meta: Total rows added: 3 in 0.00 seconds
+0006.389 (0) Table wp_apwqde_yoast_seo_meta: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_yoast_seo_meta.table.gz - 0.4 KB)
+0006.392 (0) Table wp_apwqde_defender_lockout: Total expected rows (approximate): 0
+0006.395 (0) Table wp_apwqde_defender_lockout: Total rows added: 0 in 0.00 seconds
+0006.396 (0) Table wp_apwqde_defender_lockout: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_defender_lockout.table.gz - 0.4 KB)
+0006.400 (0) Table wp_apwqde_defender_lockout_log: Total expected rows (approximate): 0
+0006.403 (0) Table wp_apwqde_defender_lockout_log: Total rows added: 0 in 0.00 seconds
+0006.404 (0) Table wp_apwqde_defender_lockout_log: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_defender_lockout_log.table.gz - 0.4 KB)
+0006.408 (0) Table wp_apwqde_gf_draft_submissions: Total expected rows (approximate): 0
+0006.410 (0) Table wp_apwqde_gf_draft_submissions: Total rows added: 0 in 0.00 seconds
+0006.411 (0) Table wp_apwqde_gf_draft_submissions: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_draft_submissions.table.gz - 0.4 KB)
+0006.415 (0) Table wp_apwqde_gf_entry: Total expected rows (approximate): 0
+0006.418 (0) Table wp_apwqde_gf_entry: Total rows added: 0 in 0.00 seconds
+0006.419 (0) Table wp_apwqde_gf_entry: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_entry.table.gz - 0.6 KB)
+0006.423 (0) Table wp_apwqde_gf_entry_meta: Total expected rows (approximate): 0
+0006.426 (0) Table wp_apwqde_gf_entry_meta: Total rows added: 0 in 0.00 seconds
+0006.427 (0) Table wp_apwqde_gf_entry_meta: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_entry_meta.table.gz - 0.4 KB)
+0006.432 (0) Table wp_apwqde_gf_entry_notes: Total expected rows (approximate): 0
+0006.434 (0) Table wp_apwqde_gf_entry_notes: Total rows added: 0 in 0.00 seconds
+0006.435 (0) Table wp_apwqde_gf_entry_notes: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_entry_notes.table.gz - 0.4 KB)
+0006.439 (0) Table wp_apwqde_gf_form: Total expected rows (approximate): 0
+0006.442 (0) Table wp_apwqde_gf_form: Total rows added: 0 in 0.00 seconds
+0006.443 (0) Table wp_apwqde_gf_form: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_form.table.gz - 0.4 KB)
+0006.447 (0) Table wp_apwqde_gf_form_meta: Total expected rows (approximate): 0
+0006.449 (0) Table wp_apwqde_gf_form_meta: Total rows added: 0 in 0.00 seconds
+0006.450 (0) Table wp_apwqde_gf_form_meta: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_form_meta.table.gz - 0.3 KB)
+0006.455 (0) Table wp_apwqde_gf_form_view: Total expected rows (approximate): 0
+0006.457 (0) Table wp_apwqde_gf_form_view: Total rows added: 0 in 0.00 seconds
+0006.458 (0) Table wp_apwqde_gf_form_view: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_form_view.table.gz - 0.4 KB)
+0006.461 (0) Table wp_apwqde_pmxi_files: Total expected rows (approximate): 0
+0006.463 (0) Table wp_apwqde_pmxi_files: Total rows added: 0 in 0.00 seconds
+0006.464 (0) Table wp_apwqde_pmxi_files: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_files.table.gz - 0.4 KB)
+0006.468 (0) Table wp_apwqde_pmxi_history: Total expected rows (approximate): 0
+0006.470 (0) Table wp_apwqde_pmxi_history: Total rows added: 0 in 0.00 seconds
+0006.471 (0) Table wp_apwqde_pmxi_history: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_history.table.gz - 0.4 KB)
+0006.475 (0) Table wp_apwqde_pmxi_images: Total expected rows (approximate): 0
+0006.477 (0) Table wp_apwqde_pmxi_images: Total rows added: 0 in 0.00 seconds
+0006.478 (0) Table wp_apwqde_pmxi_images: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_images.table.gz - 0.3 KB)
+0006.482 (0) Table wp_apwqde_pmxi_imports: Total expected rows (approximate): 0
+0006.485 (0) Table wp_apwqde_pmxi_imports: Total rows added: 0 in 0.00 seconds
+0006.485 (0) Table wp_apwqde_pmxi_imports: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_imports.table.gz - 0.6 KB)
+0006.489 (0) Table wp_apwqde_pmxi_posts: Total expected rows (approximate): 0
+0006.492 (0) Table wp_apwqde_pmxi_posts: Total rows added: 0 in 0.00 seconds
+0006.493 (0) Table wp_apwqde_pmxi_posts: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_posts.table.gz - 0.4 KB)
+0006.497 (0) Table wp_apwqde_pmxi_templates: Total expected rows (approximate): 0
+0006.499 (0) Table wp_apwqde_pmxi_templates: Total rows added: 0 in 0.00 seconds
+0006.500 (0) Table wp_apwqde_pmxi_templates: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_templates.table.gz - 0.4 KB)
+0006.504 (0) Table wp_apwqde_smush_dir_images: Total expected rows (approximate): 0
+0006.507 (0) Table wp_apwqde_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0006.508 (0) Table wp_apwqde_smush_dir_images: finishing file (backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_smush_dir_images.table.gz - 0.4 KB)
+0006.511 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_options.table.gz (1/30): adding to final database dump
+0006.550 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_users.table.gz (2/30): adding to final database dump
+0006.551 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_usermeta.table.gz (3/30): adding to final database dump
+0006.552 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_commentmeta.table.gz (4/30): adding to final database dump
+0006.552 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_comments.table.gz (5/30): adding to final database dump
+0006.554 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_links.table.gz (6/30): adding to final database dump
+0006.554 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_postmeta.table.gz (7/30): adding to final database dump
+0006.555 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_posts.table.gz (8/30): adding to final database dump
+0006.557 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_term_relationships.table.gz (9/30): adding to final database dump
+0006.558 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_term_taxonomy.table.gz (10/30): adding to final database dump
+0006.558 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_termmeta.table.gz (11/30): adding to final database dump
+0006.559 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_terms.table.gz (12/30): adding to final database dump
+0006.560 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_yoast_seo_links.table.gz (13/30): adding to final database dump
+0006.561 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_yoast_seo_meta.table.gz (14/30): adding to final database dump
+0006.562 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_defender_lockout.table.gz (15/30): adding to final database dump
+0006.563 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_defender_lockout_log.table.gz (16/30): adding to final database dump
+0006.564 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_draft_submissions.table.gz (17/30): adding to final database dump
+0006.564 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_entry.table.gz (18/30): adding to final database dump
+0006.566 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_entry_meta.table.gz (19/30): adding to final database dump
+0006.567 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_entry_notes.table.gz (20/30): adding to final database dump
+0006.567 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_form.table.gz (21/30): adding to final database dump
+0006.568 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_form_meta.table.gz (22/30): adding to final database dump
+0006.569 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_gf_form_view.table.gz (23/30): adding to final database dump
+0006.570 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_files.table.gz (24/30): adding to final database dump
+0006.571 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_history.table.gz (25/30): adding to final database dump
+0006.572 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_images.table.gz (26/30): adding to final database dump
+0006.573 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_imports.table.gz (27/30): adding to final database dump
+0006.574 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_posts.table.gz (28/30): adding to final database dump
+0006.575 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_pmxi_templates.table.gz (29/30): adding to final database dump
+0006.575 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db-table-wp_apwqde_smush_dir_images.table.gz (30/30): adding to final database dump
+0006.576 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db.gz: finished writing out complete database file (160 KB)
+0006.584 (0) Total database tables backed up: 30 (backup_2018-10-16-1917_Master_99ccc2d78af6-db.gz, size: 184272, sha256)
+0006.590 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.591 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.592 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.593 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.594 (0) backup_2018-10-16-1917_Master_99ccc2d78af6-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.594 (0) Saving backup history. Total backup size: 39 MB
+0006.598 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.601 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.601 (0) No remote despatch: user chose no remote backup service
+0006.602 (0) Recording as successfully uploaded: backup_2018-10-16-1917_Master_99ccc2d78af6-plugins.zip
+0006.604 (0) Recording as successfully uploaded: backup_2018-10-16-1917_Master_99ccc2d78af6-themes.zip
+0006.606 (0) Recording as successfully uploaded: backup_2018-10-16-1917_Master_99ccc2d78af6-uploads.zip
+0006.608 (0) Recording as successfully uploaded: backup_2018-10-16-1917_Master_99ccc2d78af6-others.zip
+0006.610 (0) Recording as successfully uploaded: backup_2018-10-16-1917_Master_99ccc2d78af6-db.gz
+0006.614 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.615 (0) Number of backup sets in history: 3; groups (db): 1
+0006.616 (0) Examining (for databases) backup set with group_id=0, nonce=99ccc2d78af6, datestamp=1539717438 (Oct 16 2018 19:17:18)
+0006.617 (0) This backup set is the backup set just made, so will not be deleted.
+0006.617 (0) Examining (for databases) backup set with group_id=0, nonce=75f3de0f30a0, datestamp=1539716467 (Oct 16 2018 19:01:07)
+0006.617 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.617 (0) Examining (for databases) backup set with group_id=0, nonce=2c427491da6e, datestamp=1539619447 (Oct 15 2018 16:04:07)
+0006.617 (0) 1539619447: db: this set includes a database (backup_2018-10-15-1604_Master_2c427491da6e-db.gz); db count is now 2
+0006.617 (0) 1539619447: db: over retain limit (2); will delete this database
+0006.617 (0) Delete file: backup_2018-10-15-1604_Master_2c427491da6e-db.gz, service=none
+0006.618 (0) Deleting local copy (backup_2018-10-15-1604_Master_2c427491da6e-db.gz)
+0006.620 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0006.621 (0) Number of backup sets in history: 3; groups (files): 1
+0006.621 (0) Examining (for files) backup set with nonce=99ccc2d78af6, datestamp=1539717438 (Oct 16 2018 19:17:18)
+0006.622 (0) This backup set is the backup set just made, so will not be deleted.
+0006.622 (0) This backup set is the backup set just made, so will not be deleted.
+0006.622 (0) This backup set is the backup set just made, so will not be deleted.
+0006.622 (0) This backup set is the backup set just made, so will not be deleted.
+0006.622 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.623 (0) Examining (for files) backup set with nonce=75f3de0f30a0, datestamp=1539716467 (Oct 16 2018 19:01:07)
+0006.623 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0006.623 (0) Examining (for files) backup set with nonce=2c427491da6e, datestamp=1539619447 (Oct 15 2018 16:04:07)
+0006.623 (0) plugins: over retain limit (2); will delete this file entity
+0006.623 (0) themes: over retain limit (2); will delete this file entity
+0006.623 (0) uploads: over retain limit (2); will delete this file entity
+0006.623 (0) others: over retain limit (2); will delete this file entity
+0006.623 (0) Delete file: backup_2018-10-15-1604_Master_2c427491da6e-plugins.zip, service=none
+0006.624 (0) Deleting local copy (backup_2018-10-15-1604_Master_2c427491da6e-plugins.zip)
+0006.633 (0) Delete file: backup_2018-10-15-1604_Master_2c427491da6e-themes.zip, service=none
+0006.634 (0) Deleting local copy (backup_2018-10-15-1604_Master_2c427491da6e-themes.zip)
+0006.636 (0) Delete file: backup_2018-10-15-1604_Master_2c427491da6e-uploads.zip, service=none
+0006.637 (0) Deleting local copy (backup_2018-10-15-1604_Master_2c427491da6e-uploads.zip)
+0006.638 (0) Delete file: backup_2018-10-15-1604_Master_2c427491da6e-others.zip, service=none
+0006.639 (0) Deleting local copy (backup_2018-10-15-1604_Master_2c427491da6e-others.zip)
+0006.641 (0) This backup set is now empty; will remove from history
+0006.641 (0) Deleting log file (log.2c427491da6e.txt)
+0006.642 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0006.645 (0) Resume backup (99ccc2d78af6, 0): finish run
+0006.648 (0) Decremented the semaphore (fd) by 1
+0006.649 (0) Semaphore (fd) unlocked
+0006.650 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.653 (0) No email will/can be sent - the user has not configured an email address.
+0006.654 (0) The backup apparently succeeded and is now complete

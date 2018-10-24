@@ -1,0 +1,109 @@
+0000.004 () Opened log file at time: Wed, 19 Sep 2018 17:36:47 +0000 on https://www.nrdevsites.com/master
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.14.13.1 WP: 4.9.8 PHP: 7.0.30 (cgi-fcgi, Linux ds10709 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 43.1M | 6M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 1724981.4 MB
+0000.005 () Restore job started. Entities to restore: db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.022 () Entity: db
+0000.022 () restore_backup(backup_file=backup_2018-09-11-1340_Master_a7b49da0a1c1-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.022 () Unpacking backup... (backup_2018-09-11-1340_Master_a7b49da0a1c1-db.gz, 0.5 Mb)
+0000.023 () Database successfully unpacked
+0000.024 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.024 () Using direct MySQL access; value of use_mysqli is: 1
+0000.032 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.032 () Max packet size: 16 MB
+0000.032 () Entering maintenance mode
+0000.032 () Enabling Maintenance mode&#8230;
+0000.034 () Backup of: https://www.nrdevsites.com/master
+0000.034 () Content URL: https://www.nrdevsites.com/master/wp-content
+0000.034 () Uploads URL: https://www.nrdevsites.com/master/wp-content/uploads
+0000.034 () Old table prefix: wp_apwqde_
+0000.034 () Site information: multisite=0
+0000.036 () New table prefix: wp_apwqde_
+0000.038 () Processing table (InnoDB): wp_apwqde_options
+0000.086 () Restoring prior UD configuration (table: wp_apwqde_options; keys: 3)
+0000.143 () Processing table (InnoDB): wp_apwqde_site
+0000.156 () Processing table (InnoDB): wp_apwqde_blogs
+0000.164 () Processing table (InnoDB): wp_apwqde_users
+0000.171 () Processing table (InnoDB): wp_apwqde_usermeta
+0000.178 () Processing table (InnoDB): wp_apwqde_blog_versions
+0000.187 () Processing table (InnoDB): wp_apwqde_commentmeta
+0000.193 () Processing table (InnoDB): wp_apwqde_comments
+0000.199 () Processing table (InnoDB): wp_apwqde_links
+0000.206 () Processing table (InnoDB): wp_apwqde_postmeta
+0000.224 () Processing table (InnoDB): wp_apwqde_posts
+0000.245 () Processing table (InnoDB): wp_apwqde_registration_log
+0000.252 () Processing table (InnoDB): wp_apwqde_signups
+0000.257 () Processing table (InnoDB): wp_apwqde_sitemeta
+0000.291 () Processing table (InnoDB): wp_apwqde_term_relationships
+0000.296 () Processing table (InnoDB): wp_apwqde_term_taxonomy
+0000.301 () Processing table (InnoDB): wp_apwqde_termmeta
+0000.306 () Database queries processed: 50 in 0.28 seconds
+0000.306 () Processing table (InnoDB): wp_apwqde_terms
+0000.312 () Processing table (InnoDB): wp_apwqde_yoast_seo_links
+0000.317 () Processing table (InnoDB): wp_apwqde_yoast_seo_meta
+0000.323 () Processing table (InnoDB): wp_apwqde_2_pmxe_exports
+0000.329 () Processing table (InnoDB): wp_apwqde_2_pmxe_google_cats
+0000.426 () Processing table (InnoDB): wp_apwqde_2_pmxe_posts
+0000.431 () Processing table (InnoDB): wp_apwqde_2_pmxe_templates
+0000.435 () Processing table (InnoDB): wp_apwqde_2_pmxi_files
+0000.440 () Processing table (InnoDB): wp_apwqde_2_pmxi_history
+0000.445 () Processing table (InnoDB): wp_apwqde_2_pmxi_imports
+0000.449 () Processing table (InnoDB): wp_apwqde_2_pmxi_posts
+0000.454 () Processing table (InnoDB): wp_apwqde_2_pmxi_templates
+0000.458 () Processing table (InnoDB): wp_apwqde_2_smush_dir_images
+0000.463 () Processing table (InnoDB): wp_apwqde_2_yoast_seo_links
+0000.468 () Processing table (InnoDB): wp_apwqde_2_yoast_seo_meta
+0000.473 () Processing table (InnoDB): wp_apwqde_3_commentmeta
+0000.478 () Processing table (InnoDB): wp_apwqde_3_comments
+0000.486 () Processing table (InnoDB): wp_apwqde_3_links
+0000.492 () Processing table (InnoDB): wp_apwqde_3_options
+0000.571 () Processing table (InnoDB): wp_apwqde_3_pmxe_exports
+0000.602 () Database queries processed: 100 in 0.58 seconds
+0000.603 () Processing table (InnoDB): wp_apwqde_3_pmxe_google_cats
+0000.867 () Processing table (InnoDB): wp_apwqde_3_pmxe_posts
+0000.936 () Processing table (InnoDB): wp_apwqde_3_pmxe_templates
+0001.006 () Processing table (InnoDB): wp_apwqde_3_pmxi_files
+0001.059 () Processing table (InnoDB): wp_apwqde_3_pmxi_history
+0001.088 () Processing table (InnoDB): wp_apwqde_3_pmxi_imports
+0001.120 () Processing table (InnoDB): wp_apwqde_3_pmxi_posts
+0001.155 () Processing table (InnoDB): wp_apwqde_3_pmxi_templates
+0001.186 () Processing table (InnoDB): wp_apwqde_3_postmeta
+0001.212 () Processing table (InnoDB): wp_apwqde_3_posts
+0001.220 () Processing table (InnoDB): wp_apwqde_3_smush_dir_images
+0001.226 () Processing table (InnoDB): wp_apwqde_3_term_relationships
+0001.256 () Processing table (InnoDB): wp_apwqde_3_term_taxonomy
+0001.296 () Processing table (InnoDB): wp_apwqde_3_termmeta
+0001.335 () Processing table (InnoDB): wp_apwqde_3_terms
+0001.374 () Processing table (InnoDB): wp_apwqde_3_yoast_seo_links
+0001.412 () Processing table (InnoDB): wp_apwqde_3_yoast_seo_meta
+0001.462 () Processing table (InnoDB): wp_apwqde_defender_lockout
+0001.504 () Processing table (InnoDB): wp_apwqde_defender_lockout_log
+0001.537 () Processing table (InnoDB): wp_apwqde_domain_mapping
+0001.568 () Database queries processed: 150 in 1.54 seconds
+0001.583 () Processing table (InnoDB): wp_apwqde_domain_mapping_reseller_log
+0001.624 () Processing table (InnoDB): wp_apwqde_eab_booking_meta
+0001.640 () Processing table (InnoDB): wp_apwqde_eab_bookings
+0001.646 () Processing table (InnoDB): wp_apwqde_mp_product_attributes
+0001.650 () Processing table (InnoDB): wp_apwqde_mp_product_attributes_terms
+0001.654 () Processing table (InnoDB): wp_apwqde_nr_404_monitor
+0001.659 () Processing table (InnoDB): wp_apwqde_nr_404_monitoring
+0001.663 () Processing table (InnoDB): wp_apwqde_pmxe_exports
+0001.669 () Processing table (InnoDB): wp_apwqde_pmxe_google_cats
+0001.757 () Processing table (InnoDB): wp_apwqde_pmxe_posts
+0001.763 () Processing table (InnoDB): wp_apwqde_pmxe_templates
+0001.769 () Processing table (InnoDB): wp_apwqde_pmxi_files
+0001.775 () Processing table (InnoDB): wp_apwqde_pmxi_history
+0001.783 () Processing table (InnoDB): wp_apwqde_pmxi_images
+0001.788 () Processing table (InnoDB): wp_apwqde_pmxi_imports
+0001.796 () Processing table (InnoDB): wp_apwqde_pmxi_posts
+0001.812 () Database queries processed: 200 in 1.79 seconds
+0001.812 () Processing table (InnoDB): wp_apwqde_pmxi_templates
+0001.817 () Processing table (InnoDB): wp_apwqde_smush_dir_images
+0001.820 () Unlocking database and leaving maintenance mode
+0001.820 () Disabling Maintenance mode&#8230;
+0001.820 () Finished: lines processed: 206 in 1.79 seconds
+0001.820 () Cleaning up rubbish...
+0001.821 () Begin search and replace (updraftplus_restored_db)
+0001.821 () [Database-replace-site-url] Database: search and replace site URL
+0001.821 () This option was not selected.
+0002.045 () Restore successful!
+0002.045 () Restore successful

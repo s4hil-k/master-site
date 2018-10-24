@@ -1,0 +1,66 @@
+/*
+
+Name: Summit
+Background: White
+Color: Blue
+Type: Skeuomorph
+
+Style: light-purple
+Name: Light Purple
+Background: Light
+Color: Purple
+Type: Skeuomorph
+
+Style: white-turquoise
+Name: White Turquoise
+Background: White
+Color: Turquoise
+Type: Skeuomorph
+
+Style: white-pink
+Name: White Pink
+Background: White
+Color: Pink
+Type: Skeuomorph
+
+Style: white-red
+Name: White Red
+Background: White
+Color: Red
+Type: Skeuomorph
+
+Style: white-yellow
+Name: White Yellow
+Background: White
+Color: Yellow
+Type: Skeuomorph
+
+*/
+
+// Platform
+@import "platform.less";
+
+// UIkit Core
+@import "../vendor/assets/uikit/src/less/uikit.less";
+
+// UIkit Theme
+@import "../vendor/assets/uikit-themes/master/_import.less";
+@import "../vendor/assets/uikit-themes/master-summit/_import.less";
+
+// Theme
+@import "theme.less";
+
+//
+// Variables
+//
+
+@theme-toolbar-color-mode:                      dark;
+
+@internal-svg-color-default:                    #000;
+@internal-svg-color-primary:                    #c6e3f7;
+@internal-svg-color-secondary:                  @global-background;
+
+// Style
+@import (optional) "../vendor/assets/uikit-themes/master-summit/styles/@{internal-style}.less";
+
+@internal-style: ;

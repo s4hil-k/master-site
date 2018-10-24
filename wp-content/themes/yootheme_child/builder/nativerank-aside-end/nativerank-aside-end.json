@@ -1,0 +1,7 @@
+{
+  "name": "nativerank_aside_end",
+  "title": "</aside>",
+  "icon": "${THEME}_child/builder/nativerank-aside-end/icon.svg",
+  "iconSmall": "${THEME}_child/builder/nativerank-aside-end/icon-small.svg",
+  "element": true
+}

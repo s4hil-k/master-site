@@ -1,0 +1,38 @@
+0000.007 () Opened log file at time: Wed, 15 Nov 2017 18:52:20 +0000 on https://www.nrdevsites.com/master
+0000.007 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.13.13.1 WP: 4.8.3 PHP: 5.6.29 (cgi-fcgi, Linux ds8210 3.2.61-grsec-modsign #1 SMP Tue Aug 12 09:58:26 UTC 2014 x86_64) MySQL: 5.6.34 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.2M | 42M) multisite: N openssl: OpenSSL 1.0.1 14 Mar 2012 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 1554869.9 MB
+0000.010 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.077 () Entity: plugins
+0000.077 () restore_backup(backup_file=backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/home/nr_dev/nrdevsites.com/master/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.078 () Unpacking backup... (backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-plugins.zip, 19.5 Mb)
+0001.675 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.675 () Moving old data: can potentially use wp_filesystem method / -old
+0001.675 () Moving old data out of the way...
+0002.228 () Top-level entities being moved: check-and-enable-gzip-compression, contact-form-7, h1-import, login-mods, postman-smtp-copy, simple-301-redirects, simple-301-redirects-addon-bulk-uploader, updraftplus, wordpress-seo, wp-all-export, wp-all-import, wp-defender, wp-hummingbird, wp-smush-pro, wpmudev-updates, yoast-seo-settings-xml-csv-import, index.php
+0002.239 () Moving unpacked backup into place...
+0002.791 () Top-level entities being moved: check-and-enable-gzip-compression, contact-form-7, h1-import, login-mods, postman-smtp-copy, simple-301-redirects, simple-301-redirects-addon-bulk-uploader, updraftplus, wordpress-seo, wp-all-export, wp-all-import, wp-defender, wp-hummingbird, wp-smush-pro, wpmudev-updates, yoast-seo-settings-xml-csv-import, index.php
+0002.800 () Cleaning up rubbish...
+0002.803 () Entity: themes
+0002.803 () restore_backup(backup_file=backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/home/nr_dev/nrdevsites.com/master/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0002.803 () Unpacking backup... (backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-themes.zip, 6.5 Mb)
+0003.076 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.076 () Moving old data: can potentially use wp_filesystem method / -old
+0003.076 () Moving old data out of the way...
+0003.313 () Top-level entities being moved: yootheme-child, twentyfifteen, twentyseventeen, twentysixteen, yootheme
+0003.317 () Moving unpacked backup into place...
+0003.557 () Top-level entities being moved: twentyfifteen, twentyseventeen, twentysixteen, yootheme, yootheme-child, index.php
+0003.561 () Cleaning up rubbish...
+0003.564 () Entity: uploads
+0003.564 () restore_backup(backup_file=backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/home/nr_dev/nrdevsites.com/master/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0003.564 () Unpacking backup... (backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-uploads.zip, 0 Mb)
+0003.568 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.568 () Moving old data: can potentially use wp_filesystem method / -old
+0003.568 () Moving old data out of the way...
+0003.574 () Moving unpacked backup into place...
+0003.580 () Cleaning up rubbish...
+0003.582 () Entity: others
+0003.583 () restore_backup(backup_file=backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-others.zip, type=others, info=a:2:{s:4:"path";s:45:"/home/nr_dev/nrdevsites.com/master/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0003.583 () Unpacking backup... (backup_2017-11-13-1305_Just_another_WordPress_site_c1dc7a74be35-others.zip, 0 Mb)
+0003.584 () Cleaning up rubbish...
+0004.553 () Restore successful!
+0004.553 () Restore successful

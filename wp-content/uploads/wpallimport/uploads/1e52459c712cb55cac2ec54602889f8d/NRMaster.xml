@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<id><![CDATA[7]]></id>
+		<label><![CDATA[Home]]></label>
+		<h1><![CDATA[test h1]]></h1>
+		<title><![CDATA[test tt]]></title>
+		<description><![CDATA[test d]]></description>
+	</node>
+</data>

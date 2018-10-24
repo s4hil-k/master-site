@@ -1,0 +1,17 @@
+{
+  "name": "nativerank_h1",
+  "title": "NR - H1",
+  "icon": "${THEME}_child/builder/nativerank-h1/icon.svg",
+  "iconSmall": "${THEME}_child/builder/nativerank-h1/icon-small.svg",
+  "element": true,
+  "default": {
+    "add_class": "uk-h1"
+  },
+  "fields": {
+    "add_class": {
+      "type": "text",
+      "label": "Add Class",
+      "description": "Assign classes to the H1 tag."
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "name": "nativerank_sidenav",
+  "title": "Nativerank Sidenav",
+  "icon": "${THEME}_child/builder/nativerank-sidenav/icon.svg",
+  "iconSmall": "${THEME}_child/builder/nativerank-sidenav/icon-small.svg",
+  "element": true,
+  "container": true,
+  "width": 500,
+  "fields": {
+    "second_level": {
+      "label": "Checkbox",
+      "type": "checkbox",
+      "text": "Show 2nd Level Subpages"
+    },
+    "sticky": {
+      "label": "Sticky",
+      "description": "",
+      "type": "checkbox",
+      "text": "Make it Sticky"
+    },
+    "offset": {
+      "label": "Offset",
+      "description": "",
+      "type": "number",
+      "text": "Set Offset",
+      "default": 100
+    },
+    "bottom": {
+      "label": "Bottom",
+      "description": "Bind the sticky behavior to a specific element, so that it disappears after scrolling past that point of the page.",
+      "type": "text",
+      "attrs": {
+        "placeholder": "Leave Empty for TRUE"
+      }
+    },
+    "breakpoint": {
+      "label": "Breakpoint",
+      "description": "Breakpoint when element stops sticking",
+      "type": "select",
+      "default" : "@m",
+      "options": {
+        "Small": "@s",
+        "Medium": "@m",
+        "Large": "@l"
+      }
+    },
+    "animation" : {
+      "label" : "Animation",
+      "type" : "select",
+      "options": {
+        "None" : "",
+        "Fade" : "uk-animation-fade",
+        "Scale Up" : "uk-animation-scale-up",
+        "Scale Down" : "uk-animation-scale-down",
+        "Slide Top" : "uk-animation-slide-top",
+        "Slide Bottom" : "uk-animation-slide-bottom",
+        "Slide Left" : "uk-animation-slide-left",
+        "Slide Right" : "uk-animation-slide-right",
+        "top Small" : "uk-animation-slide-top-small",
+        "Bottom Small" : "uk-animation-slide-bottom-small",
+        "Left Small" : "uk-animation-slide-left-small",
+        "Right Small" : "uk-animation-slide-right-small",
+        "Top Medium" : "uk-animation-slide-top-medium",
+        "Bottom Medium" : "uk-animation-slide-bottom-medium",
+        "Left Medium" : "uk-animation-slide-left-medium",
+        "Right Medium" : "uk-animation-slide-right-medium"
+      },
+      "attrs" : {
+        "placeholder" : "Select Animation"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+/*
+
+Name: Morgan Consulting
+Background: White
+Color: Beige
+Type: Flat
+
+Style: white-green
+Name: White Green
+Background: White
+Color: Green
+Type: Flat
+
+Style: white-dove
+Name: White Dove
+Background: White
+Color: Blue
+Type: Flat
+
+Style: white-yellow
+Name: White Yellow
+Background: White
+Color: Yellow
+Type: Flat
+
+Style: white-red
+Name: White Red
+Background: White
+Color: Red
+Type: Flat
+
+Style: white-orange
+Name: White Orange
+Background: White
+Color: Orange
+Type: Flat
+
+*/
+
+// Platform
+@import "platform.less";
+
+// UIkit Core
+@import "../vendor/assets/uikit/src/less/uikit.less";
+
+// UIkit Theme
+@import "../vendor/assets/uikit-themes/master/_import.less";
+@import "../vendor/assets/uikit-themes/master-morgan-consulting/_import.less";
+
+// Theme
+@import "theme.less";
+
+//
+// Variables
+//
+
+@theme-page-border-width:                       20px;
+
+@theme-page-container-width:                    1560px;
+@theme-page-container-background:               #272727;
+
+.tm-page when not (@theme-page-border-width = 0) {
+    border-top-width: 0;
+}
+
+// Style
+@import (optional) "../vendor/assets/uikit-themes/master-morgan-consulting/styles/@{internal-style}.less";
+
+@internal-style: ;
