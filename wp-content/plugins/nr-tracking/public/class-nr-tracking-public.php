@@ -161,4 +161,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		}
 	}
 
+    public function nr_tr_add_development_mode() {
+        if($this->wp_nr_options['nr_tr_development_mode'])
+        {
+            echo "<!--DEVELOPMENT MODE ENABLED-->\n<script>console.log('%c NATIVERANK', 'background: #222; color: #f44336;font-weight:800;letter-spacing:2px;', 'Development mode is enabled');</script>\n
+
+<link rel=\"stylesheet/less\" type=\"text/css\" href=\"".get_site_url()."/wp-content/themes/yootheme_child/less/src/custom.less\" />\n
+    <script>less = { logLevel: 2,\n
+            env: 'development',\n
+            dumpLineNumbers: \"comments\"\n
+        };</script>
+    <script src=\"//cdnjs.cloudflare.com/ajax/libs/less.js/3.5.0/less.min.js\" ></script>\n
+    <script>less.watch();</script>\n
+";
+        }
+    }
+
+
 }

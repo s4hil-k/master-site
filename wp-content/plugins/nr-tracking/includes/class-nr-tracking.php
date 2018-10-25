@@ -164,6 +164,7 @@ class Nr_Tracking {
 		$plugin_basename = plugin_basename( plugin_dir_path( __DIR__ ) . $this->plugin_name . '.php' );
 		$this->loader->add_filter( 'plugin_action_links_' . $plugin_basename, $plugin_admin, 'add_action_links' );
 
+        $this->loader->add_action( 'admin_bar_menu',$plugin_admin, 'nr_tr_toolbar_link', 99999 );
 
 	}
 
@@ -187,10 +188,12 @@ class Nr_Tracking {
 		$this->loader->add_action('nr_noscript_gtm', $plugin_public, 'nr_tr_add_gtm_noscript');
 		$this->loader->add_action('wp_head', $plugin_public, 'nr_tr_add_local_schema');
 
+        $this->loader->add_action('wp_head', $plugin_public, 'nr_tr_add_development_mode');
 
 
 
-	}
+
+    }
 
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.

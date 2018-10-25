@@ -51,6 +51,7 @@ class Nr_Tracking_Admin {
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
+        $this->wp_nr_options = get_option($this->plugin_name);
 
 	}
 
@@ -123,7 +124,8 @@ class Nr_Tracking_Admin {
      */
     global $page_hook_suffix;
 
-    $page_hook_suffix = add_menu_page( 'NR Tracking Essentials', 'NR Tracking', 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page')
+    $page_hook_suffix = add_menu_page( 'Native Rank Essentials', '<b style="color:#f44336">NATIVE</b><b style="color:#1D8BF1">RANK</b>', 'manage_options', $this->plugin_name, array($this, 'display_plugin_setup_page'),
+         get_site_url(). '/wp-content/plugins/nr-tracking/admin/partials/logo.png'
     );
 }
 
@@ -171,7 +173,51 @@ public function validate($input) {
     //schema
     $valid['nr_tr_local_schema'] = sanitize_text_field($input['nr_tr_local_schema']);
 
+    $valid['nr_tr_development_mode'] = $input['nr_tr_development_mode'];
+
     return $valid;
  }
 
+    public function nr_tr_toolbar_link( $wp_admin_bar )
+    {
+        if ($this->wp_nr_options['nr_tr_development_mode']) {
+            $args = array(
+                'id' => $this->plugin_name,
+                'title' => '<div style="    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: calc(100vw - 576px);
+    width: 152px;
+    z-index: 99;
+    transform: translateX(-100%);
+    border-right: 1px solid #fff;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 38 38" style="enable-background:new 0 0 38 38;" xml:space="preserve" height="15" width="15">
+<style type="text/css">
+	.st0{fill:none;stroke:#FF2C2C;stroke-width:2;stroke-opacity:0.5;}
+	.st1{fill:none;stroke:#FF2C2C;stroke-width:2;}
+	.st2{fill:#FFCD05;}
+	.st3{fill:#E11E26;}
+</style>
+<g>
+	<g transform="translate(1 1)">
+		<circle class="st0" cx="18" cy="18" r="18"/>
+		
+
+
+
+
+	</g>
+</g>
+<path class="st2" d="M19,36C9.7,36,2,28.4,2,19S9.7,2,19,2s17,7.6,17,17S28.4,36,19,36L19,36z"/>
+<path class="st3" d="M25.7,10.3v8.9c0,0.3,0,0.5,0.1,1.1l-0.6-0.8c-0.4-0.4-0.8-0.8-1.2-1.2l0,0c-0.5-0.5-1.2-1.2-1.8-1.8  c-1.1-1-2-1.8-3.2-2.6c-1.1-0.8-2.2-1.5-3.4-2.1c-1.1-0.6-2.4-1.1-3.5-1.5H9v15.2h3.6V15.3c0-0.2,0-0.4-0.1-1.1l0.5,0.2l0.4,0.2  c2.1,0.9,4,2,5.8,3.6l0,0l0.3,0.2c2.3,2.1,4.3,4.5,6.1,7h3.9V10.3C29.5,10.3,25.7,10.3,25.7,10.3z"/>
+</svg> <span style="margin-left:5px;color:#43a047">Development Mode</span></div>',
+                'meta' => array('class' => 'nr_tr_development_mode_admin_tb')
+            );
+            $wp_admin_bar->add_node($args);
+        }
+    }
+
+
 }
+
+
